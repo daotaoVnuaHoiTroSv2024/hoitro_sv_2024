@@ -1,0 +1,34 @@
+div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-board{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+#container-form{
+    width: 70%;
+    height: auto;
+}
+
+#container-form form{
+    width: 100%;
+    height: 100%;
+}
+#ul-mua{
+   width: 60%;
+   border-top: 5px solid rgb(127, 193, 237);
+   background-color: rgb(229, 229, 229);
+   height: auto;
+   margin: 0;
+   padding: 10px;
+}
+#add{
+    margin-top: 10px;
+}
+input::placeholder{
+    font-size: .7em;
+}
